@@ -19,6 +19,13 @@
         />
         <button type="submit">Add</button>
       </form>
+
+      <div class="filters" role="group" aria-label="Todo filters">
+        <button type="button" class="filter-btn is-active" data-filter="all">すべて</button>
+        <button type="button" class="filter-btn" data-filter="active">未完了</button>
+        <button type="button" class="filter-btn" data-filter="completed">完了</button>
+      </div>
+
       <ul id="todo-list" class="todo-list" aria-live="polite"></ul>
     </main>
 
